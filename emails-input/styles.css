@@ -1,0 +1,40 @@
+.emails-input-container {
+  width: 100%;
+  resize: none;
+  border: 0.1rem solid #c3c2cf;
+  border-radius: 4px;
+  height: 9.6rem;
+  padding: 0.8rem 0.7rem;
+  overflow-y: auto;
+}
+
+.email-input {
+  background: inherit;
+  border: none;
+  outline: none;
+  display: inline-block;
+  margin: 0.4rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+.emails-input-container .email-item {
+  display: inline-block;
+  margin: 0.4rem;
+  padding: 0 0.5rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+.emails-input-container .email-item.valid {
+  border-radius: 10rem;
+  background-color: rgba(102, 153, 255, 0.2);
+}
+
+.emails-input-container .email-item.invalid {
+  border-bottom: 1px dashed #d92929;
+}
+
+.emails-input-container .remove-email {
+  margin: 0 0.8rem;
+}

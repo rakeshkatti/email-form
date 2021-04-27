@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./emails-input/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script src="./emails-input/index.js" defer></script>
+    <script src="./scripts.js" defer></script>
+
+    <title>Email Form</title>
+  </head>
+  <body>
+    <button id="shareButton" class="button">Share Board</button>
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <div class="modal-header">
+          Share <strong>Board name</strong> with others
+        </div>
+        <div class="modal-body">
+          <div id="emails-input"></div>
+        </div>
+        <div class="modal-footer">
+          <button id="addEmail" class="button">Add email</button>
+          <button id="getEmailCount" class="button">Get emails count</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

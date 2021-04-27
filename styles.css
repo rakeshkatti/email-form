@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #4262ff;
+  --primary-text-color: #050038;
+}
+
+/* Common styles */
+html,
+body {
+  font-size: 10px;
+  width: 100vw;
+  min-height: 100vh;
+  color: var(--primary-text-color);
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.6rem;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+/* Modal styles */
+.modal-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 1.4rem;
+}
+
+.modal {
+  box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.8rem;
+  width: 54rem;
+  background-color: #f8f8f7;
+}
+
+.modal-header {
+  font-size: 2rem;
+  padding: 3.2rem 5rem 1.2rem 5rem;
+}
+
+.modal-body {
+  padding: 1.2rem 5rem 2.4rem 5rem;
+  font-size: 1rem;
+}
+
+.modal-footer {
+  padding: 2.4rem 5rem 3.2rem 5rem;
+  background-color: #ffffff;
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.modal-footer .button:first-of-type {
+  margin-right: 1.6rem;
+}
